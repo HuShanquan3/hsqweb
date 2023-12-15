@@ -1,0 +1,44 @@
+.bottom-menu li {
+    float:left;
+    width: 25%;
+    height:52px;
+    overflow:hidden;
+    list-style-type:none;
+    border-top: 0px;
+}
+
+.bottom-menu .play {
+    width: 100%;
+    height: auto;
+    min-width: 55px;
+    max-width: 60px;
+    margin-top: 0px;
+}
+
+.bottom-menu li img {
+    width: 94px;
+    height: 52px;
+    margin-top: 0px;
+}
+
+.bottom-menu li a:active {
+    filter:Gray; 
+    -webkit-filter: grayscale(100%);
+}
+
+.bottom-menu li a {
+    display:block;  
+    font-weight:normal;
+    text-decoration:none;
+    text-align: center;
+}
+
+.bottom-menu li a h4 {
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+}
+
+.bottom-menu li a h4:active {
+    color: red;
+}

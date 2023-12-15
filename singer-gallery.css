@@ -1,0 +1,36 @@
+body .singer-gallery:after { clear: both; content: " "; display: block; }
+        
+body .singer-gallery .singer-gallery-item {
+    float:left;
+    margin-left: 2.5%;
+    width: 30%;
+    height:auto;
+    overflow:hidden;
+    list-style-type:none;  
+}
+
+.singer-gallery .singer-gallery-item a {
+    display:block;  
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.singer-gallery .singer-gallery-item a img {
+    #-webkit-box-shadow: #999 0 3px 5px;
+    #-moz-box-shadow: #999 0 3px 5px;
+    #box-shadow: #999 0 3px 5px;
+    border-radius:3px;
+    width: 100%;
+}
+
+.singer-gallery .singer-gallery-item a h4 {
+    text-align: center;
+    width: auto;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    margin-top: -1px;
+	margin-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
